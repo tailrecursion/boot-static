@@ -2,11 +2,11 @@
   :resource-paths #{"src"}
   :source-paths   #{"tst"}
   :target-path      "tgt"
-  :dependencies  '[[org.clojure/clojure             "1.7.0"  :scope "provided"]
-                   [boot/core                       "2.3.0"  :scope "provided"]
-                   [adzerk/bootlaces                "0.1.11" :scope "test"]
-                   [adzerk/boot-test                "1.0.4"  :scope "test"]
-                   [clj-http                        "2.0.0"  :scope "test"]
+  :dependencies  '[[org.clojure/clojure             "1.8.0"  :scope "provided"]
+                   [boot/core                       "2.6.0"  :scope "provided"]
+                   [adzerk/bootlaces                "0.1.13" :scope "test"]
+                   [adzerk/boot-test                "1.1.1"  :scope "test"]
+                   [clj-http                        "3.1.0"  :scope "test"]
                    [ring/ring-mock                  "0.3.0"  :scope "test"]]
  :repositories  [["clojars"       "https://clojars.org/repo/"]
                  ["maven-central" "https://repo1.maven.org/maven2/"]])
