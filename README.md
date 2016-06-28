@@ -32,7 +32,7 @@ you can currently accomplish the same thing using [`boot-jetty`][3], although yo
 ## notes
 when serving files at an origin different from the webservice (such as a separate port on localhost), it is also necessary to handle cross-origin requests.  a [cors middleware][4] can be added to the server for this purpose.  the same holds true in production, although a different approach (such as uniting the file and data services behind the same origin, perhaps through cloudfront if using aws) might be advisable, particularly if support for the ms browser spoofers (ie 8 and 9 don't support cors) is required.  serving from the same origin also prevents the client from making additional preflight requests.
 
-[1]: https://travis-ci.org/tailrecursion/boot-static.png?branch=app-pod
+[1]: https://travis-ci.org/tailrecursion/boot-static.svg?branch=master
 [2]: https://travis-ci.org/tailrecursion/boot-static
 [3]: https://github.com/tailrecursion/boot-jetty
 [4]: https://github.com/jumblerg/ring.middleware.cors
