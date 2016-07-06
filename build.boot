@@ -1,7 +1,6 @@
 (set-env!
   :resource-paths #{"src"}
   :source-paths   #{"tst"}
-  :target-path      "tgt"
   :dependencies  '[[org.clojure/clojure             "1.8.0"  :scope "provided"]
                    [boot/core                       "2.6.0"  :scope "provided"]
                    [adzerk/bootlaces                "0.1.13" :scope "test"]
@@ -15,7 +14,7 @@
   '[adzerk.boot-test          :refer [test]]
   '[tailrecursion.boot-static :refer [serve]])
 
-(def +version+ "0.0.1-SNAPSHOT")
+(def +version+ "0.1.0")
 
 (bootlaces! +version+)
 

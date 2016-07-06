@@ -3,7 +3,7 @@ a static web server for boot
 
 [](dependency)
 ```clojure
-[tailrecursion/boot-static "0.0.1-SNAPSHOT"] ;; latest release
+[tailrecursion/boot-static "0.1.0"] ;; latest release
 ```
 [](/dependency)
 
