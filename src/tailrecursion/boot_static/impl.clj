@@ -1,9 +1,8 @@
 (ns tailrecursion.boot-static.impl
   (:import
-   [io.vertx.core                   Handler]
-   [io.vertx.rxjava.core            Vertx]
-   [io.vertx.rxjava.ext.web         Router]
-   [io.vertx.rxjava.ext.web.handler StaticHandler]))
+   [io.vertx.core            Vertx Handler]
+   [io.vertx.ext.web         Router]
+   [io.vertx.ext.web.handler StaticHandler]))
 
 (def server (atom nil))
 

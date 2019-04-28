@@ -9,9 +9,8 @@
     [java.nio.file Paths]))
 
 (def ^:private deps
-  '[[io.vertx/vertx-core    "3.2.1"]
-    [io.vertx/vertx-rx-java "3.2.1"]
-    [io.vertx/vertx-web     "3.2.1"]])
+  '[[io.vertx/vertx-core "3.7.0"]
+    [io.vertx/vertx-web  "3.7.0"]])
 
 (defn- warn-deps [deps]
   (let [conflict (delay (util/warn "Overriding Vert.x dependencies, using:\n"))]
